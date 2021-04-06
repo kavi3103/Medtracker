@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateQuanity">
+
+
+    <TextView
+        android:id="@+id/title11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Medicine count"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/updateq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:id="@+id/title12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quanity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/med_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/qua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/personal"
+        android:layout_width="78dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/personal_foreground"
+        android:text="Personal Info" />
+
+    <ImageButton
+        android:id="@+id/prescription"
+        android:layout_width="95dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/add_medicine_foreground"
+        android:text="Add medicine" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MedTracker"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/shortmed"
+        android:layout_width="97dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="300dp"
+        android:src="@mipmap/shortage_foreground"
+        android:text="Shortage of medicines" />
+
+    <ImageButton
+        android:id="@+id/emergency"
+        android:layout_width="106dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"
+        android:src="@mipmap/emermsg_foreground"
+        android:text="Emergency message" />
+
+    <ImageButton
+        android:id="@+id/reminder"
+        android:layout_width="86dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@mipmap/reminder_foreground" />
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPersonal">
+
+    <TextView
+        android:id="@+id/title18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:text="Edit Personal Information"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Pat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Pat_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="170dp"/>
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Numbers"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pharmacy Number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="320dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neighbor Number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Pharmacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="270dp"/>
+
+    <EditText
+        android:id="@+id/Hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="320dp"/>
+
+    <EditText
+        android:id="@+id/Neighbor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="370dp"/>
+
+    <EditText
+        android:id="@+id/Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="420dp"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:text="Save"
+        />
+
+
+</RelativeLayout>
